@@ -87,20 +87,22 @@ class LinkedList(object):
             actualNode = actualNode.nextNode
 
 # ------------ Testing the Linked List Data Structure -----------------
-linked_List = LinkedList()
-print(linked_List.insertStart(12))                     # Insert 12 at starting of Linked List
-print(linked_List.insertStart(122))                    # Insert 122;  LL: 122 -> 12
-print(linked_List.insertStart(3))                      # Insert 3;    LL: 3 -> 122 -> 12
-print(linked_List.insertEnd(31))                       # Insert 31;   LL: 3 -> 122 -> 12 -> 31
-linked_List.traverseList()
-print('Size of Linked List: ',linked_List.linkedListSize())
-print(linked_List.removeNode(31))
-print('Size of new Linked List: ',linked_List.linkedListSize())
-print(linked_List.removeNode(122))
-print('Size of new Linked List: ',linked_List.linkedListSize())
-print(linked_List.removeNode(3))
-print('Size of new Linked List: ',linked_List.linkedListSize())
-print(linked_List.removeNode(12))
-print('Size of new Linked List: ',linked_List.linkedListSize())
+if __name__ == '__main__':
+
+	linked_List = LinkedList()
+	print(linked_List.insertStart(12))                     # Insert 12 at starting of Linked List
+	print(linked_List.insertStart(122))                    # Insert 122;  LL: 122 -> 12
+	print(linked_List.insertStart(3))                      # Insert 3;    LL: 3 -> 122 -> 12
+	print(linked_List.insertEnd(31))                       # Insert 31;   LL: 3 -> 122 -> 12 -> 31
+	linked_List.traverseList()
+	print('Size of Linked List: ',linked_List.linkedListSize())
+	print(linked_List.removeNode(31))
+	print('Size of new Linked List: ',linked_List.linkedListSize())
+	print(linked_List.removeNode(122))
+	print('Size of new Linked List: ',linked_List.linkedListSize())
+	print(linked_List.removeNode(3))
+	print('Size of new Linked List: ',linked_List.linkedListSize())
+	print(linked_List.removeNode(12))
+	print('Size of new Linked List: ',linked_List.linkedListSize())
 
 # -------------------------- EOC --------------------------

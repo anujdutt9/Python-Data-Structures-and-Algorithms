@@ -23,15 +23,17 @@ class Queue(object):
 
 
 # Testing
-queue = Queue()
-print(queue.enqueue('Anuj'))
-print(queue.enqueue(9))
-print(queue.enqueue(20))
+if __name__ == '__main__':
 
-print(queue.dequeue())
-print(queue.dequeue())
-print(queue.queueSize())
-print(queue.dequeue())
-print(queue.queueSize())
+	queue = Queue()
+	print(queue.enqueue('Anuj'))
+	print(queue.enqueue(9))
+	print(queue.enqueue(20))
+
+	print(queue.dequeue())
+	print(queue.dequeue())
+	print(queue.queueSize())
+	print(queue.dequeue())
+	print(queue.queueSize())
 
 # --------------------- EOC -----------------

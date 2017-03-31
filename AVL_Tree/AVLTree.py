@@ -185,16 +185,18 @@ class AVL(object):
             self.traverseInOrder(node.rightChild)
 
 # ------------------- Testing -----------------
-avl = AVL()
-avl.insert(10)
-avl.insert(20)
-avl.insert(5)
-avl.insert(6)
-avl.insert(15)
-avl.traverse()
+if __name__ == '__main__':
 
-avl.remove(20)
-avl.remove(15)
-avl.traverse()
+	avl = AVL()
+	avl.insert(10)
+	avl.insert(20)
+	avl.insert(5)
+	avl.insert(6)
+	avl.insert(15)
+	avl.traverse()
+
+	avl.remove(20)
+	avl.remove(15)
+	avl.traverse()
 
 #---------------------------------------- EOC ------------------------------------

@@ -29,22 +29,21 @@ class Stack(object):
 
 
 # Testing
-stack = Stack()
+if __name__ == '__main__':
 
-# Push data to Stack
-print(stack.push(10))
-print(stack.push(20))
-print(stack.push(30))
-print(stack.push(40))
+	stack = Stack()
 
-# Pop data from Stack
-print(stack.pop())
-print(stack.pop())
-print('Stack size: ',stack.stackSize())
-print(stack.pop())
-print('Stack size: ',stack.stackSize())
+	# Push data to Stack
+	print(stack.push(10))
+	print(stack.push(20))
+	print(stack.push(30))
+	print(stack.push(40))
 
+	# Pop data from Stack
+	print(stack.pop())
+	print(stack.pop())
+	print('Stack size: ',stack.stackSize())
+	print(stack.pop())
+	print('Stack size: ',stack.stackSize())
 
-
-
-
+# ------------------------------------------ EOC --------------------------------------
