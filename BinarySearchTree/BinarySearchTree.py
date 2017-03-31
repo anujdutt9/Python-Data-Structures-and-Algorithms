@@ -166,20 +166,21 @@ class BinarySearchTree(object):
 # -------------------- Testing -----------------------
 if __name__ == '__main__':
 
-	bst = BinarySearchTree()
-	bst.insert(10)                  # ROOT Node
-	bst.insert(13)
-	bst.insert(14)
-	bst.insert(5)
-	bst.insert(1)
-	#bst.remove(5)
-	bst.remove(10)
+    bst = BinarySearchTree()
+    bst.insert(10)                  # ROOT Node
+    bst.insert(13)
+    bst.insert(14)
+    bst.insert(5)
+    bst.insert(1)
 
-	# bst.insert('A')
-	# bst.insert('C')
-	# bst.insert('G')
-	# bst.insert('Z')
+    #bst.remove(5)
+    bst.remove(10)
 
-	bst.traversal()
+    # bst.insert('A')
+    # bst.insert('C')
+    # bst.insert('G')
+    # bst.insert('Z')
+
+    bst.traversal()
 
 # --------------------- EOC ----------------------

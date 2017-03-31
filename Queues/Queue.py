@@ -24,16 +24,15 @@ class Queue(object):
 
 # Testing
 if __name__ == '__main__':
+    queue = Queue()
+    print(queue.enqueue('Anuj'))
+    print(queue.enqueue(9))
+    print(queue.enqueue(20))
 
-	queue = Queue()
-	print(queue.enqueue('Anuj'))
-	print(queue.enqueue(9))
-	print(queue.enqueue(20))
-
-	print(queue.dequeue())
-	print(queue.dequeue())
-	print(queue.queueSize())
-	print(queue.dequeue())
-	print(queue.queueSize())
+    print(queue.dequeue())
+    print(queue.dequeue())
+    print(queue.queueSize())
+    print(queue.dequeue())
+    print(queue.queueSize())
 
 # --------------------- EOC -----------------
