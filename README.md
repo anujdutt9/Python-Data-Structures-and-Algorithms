@@ -10,3 +10,5 @@
 |       Linked List         |         Completed       |
 |   Binary Search Tree      |         Completed       |
 |         AVL Tree          |         Completed       |
+|         Heap              |         Completed       |
+
