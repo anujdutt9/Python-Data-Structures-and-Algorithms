@@ -11,6 +11,7 @@
 |   Binary Search Tree      |         Completed       |
 |         AVL Tree          |         Completed       |
 |         Heap              |         Completed       |
+|      Dictionaries         |         Completed       |
 |   Ternary Search Tree     |         Completed       |
 |   Bredth First Search     |         Completed       |
 |    Depth First Search     |         Completed       |
