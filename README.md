@@ -1,6 +1,6 @@
-# Python-Data-Structures
+# Python-Data-Structures-and-Algorithms
 
-***Data Structures implementation using Python 3 and PyCharm.***
+***Data Structures & Algorithms implementation using Python 3 and PyCharm.***
 
 |       Data Structure      |         Status          |
 | ------------------------- | ----------------------- |
@@ -11,4 +11,10 @@
 |   Binary Search Tree      |         Completed       |
 |         AVL Tree          |         Completed       |
 |         Heap              |         Completed       |
+|   Ternary Search Tree     |         Completed       |
+|   Bredth First Search     |         Completed       |
+|    Depth First Search     |         Completed       |
+|    Dijkstra Algorithm     |         Completed       |
+|  Bellman-Ford Algorithm   |         Completed       |
+|    Kruskal Algorithm      |         Completed       |
 
