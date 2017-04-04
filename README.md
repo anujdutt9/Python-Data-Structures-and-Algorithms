@@ -18,4 +18,9 @@
 |    Dijkstra Algorithm     |         Completed       |
 |  Bellman-Ford Algorithm   |         Completed       |
 |    Kruskal Algorithm      |         Completed       |
-
+| Prim's Jarnik Algorithm   |         Completed       |
+|       Quick Sort          |         Completed       |
+|       Merge Sort          |         Completed       |
+|     Selection Sort        |         Completed       |
+|     Insertion Sort        |         Completed       |
+|       Bubble Sort         |         Completed       |
